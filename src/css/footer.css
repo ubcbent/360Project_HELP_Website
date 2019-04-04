@@ -1,0 +1,45 @@
+/*body
+{
+  margin-left: 0;
+  margin-right: 0;
+}*/
+
+/*Footer Area*/
+footer
+{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background-color: #303030;
+  margin: 0em;
+  /*padding: 2em 2em 2em 0.5em;*/
+  clear: left;
+  overflow: auto;
+}
+footer figure
+{
+  float: left;
+}
+footer figure img
+{
+  margin-left: 2em;
+  width: 200px;
+  height: 200px;
+}
+footer figure figcaption
+{
+  margin-top: 0.5em;
+}
+footer p
+{
+  font-size: 1em;
+}
+#about-us-info-section
+{
+    margin-right: 2em;
+    height: 250px;
+}
+#about-us
+{
+    text-align: center;
+    padding-bottom: 0.5em;
+}

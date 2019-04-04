@@ -1,0 +1,130 @@
+
+header,footer{
+  z-index: 10;
+}
+
+#filter-bar, #items{
+  font-family: 'Raleway', sans-serif;
+}
+div#main{
+  margin: 0em;
+  margin-top: -3px;
+
+}
+
+#filter-bar{
+  color: white;
+  width: 20%;
+  min-width: 12em;
+  height: 100vh;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 300;
+  background-color: #303030;
+  float: left;
+  position: sticky;
+  top: 93px;
+  border: 2pt solid black;
+  border-left: none;
+
+}
+
+ul{
+  list-style: none;
+}
+fieldset{
+  border: none;
+}
+label{
+  margin-top: 2em;
+}
+input[type=number]{
+  width: 8em;
+}
+a{text-decoration: none;}
+
+#items{
+	position: relative;
+	top: 93px;
+	margin-left: 20%;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	padding-left: 2em;
+	height: 100%;
+	min-height: 115vh;
+	overflow: auto;
+}
+.item{
+  border-bottom: 1pt solid gray;
+  height: 180px;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  display: block;
+  position: relative;
+}
+.item .item-pic{
+	height: 150px;
+	width: 30%;
+	float: left;
+	margin-left: 1em;
+	margin-right: 1em;
+	float: left;
+	width: 150px;
+	max-width: 25%;
+}
+.item img{
+  border: 1px solid black;
+  display: block;
+  width:100%;
+  height:100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.item .details-short{
+	height: 110px;
+}
+.item .desc-short{
+  margin: 0.5em;
+  height: 100%;
+  overflow: auto;
+}
+
+.item .item-price{
+  color: green;
+  float: right;
+}
+
+#next-page,#prev-page{
+  border: none;
+  display: inline-block;
+  background-color: black;
+  padding: 0.3em;
+  color: white;
+  float: right;
+}
+#prev-page{float:left;}
+
+/*respond to change in navbar size with different viewports*/
+
+@media only screen and (max-width: 959px)
+{
+	#filter-bar, #items{
+	top: 92px;
+	margin-top:-1px;
+	}
+}
+@media only screen and (max-width: 640px){
+	#filter-bar, #items{
+	top: 117px;
+	}
+	h3{
+		margin-block-start: 0.2em;
+		margin-block-end: 0.2em;
+	}
+	#items{
+		min-margin-left: 9em;
+		margin-right: 0.5em;
+	}
+}

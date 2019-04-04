@@ -1,0 +1,16 @@
+div#main{
+  margin-top: 7em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#main table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td{
+  padding: 0.5em;
+  text-align: center;
+  height: 3em;
+}

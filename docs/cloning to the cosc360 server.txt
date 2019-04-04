@@ -1,0 +1,3 @@
+putty:
+
+git clone https://github.com/UBCO-COSC304-COSC360-Term-Project-W2018/the-project-thedrugcartel.git
